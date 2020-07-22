@@ -98,3 +98,35 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+.divDownloadCV{
+    position: relative;
+    height: 50px;
+}
+
+.downloadCVes, .downloadCVen{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.downloadCVes{
+    left: 45%;
+}
+
+.downloadCVen{
+    left: 55%;
+}
+
+@media only screen and (max-width: 900px) {
+    .downloadCVes{
+        left: 40%;
+    }
+    
+    .downloadCVen{
+        left: 60%;
+    }
+  }
