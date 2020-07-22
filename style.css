@@ -1,0 +1,84 @@
+.myBody {
+    /* cursor: url("src/images/"), auto; */
+    font-family: 'Oswald', sans-serif;
+}
+
+.div01 {
+    position: relative;
+    width: 1000px;
+    height: 350px;    
+    margin: auto;
+}
+
+.image01 {
+    width: 1000px;
+    height: 0px;
+    position: absolute;
+    z-index: 0;
+}
+
+.image02 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 140px;
+    left: 400px;
+    z-index: 1;
+}
+
+.divMyName {
+    position: relative;
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+}
+
+.divIcons {
+    position: relative;
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.githubIcon, .linkedinIcon, .instagramIcon {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    transition: transform .2s;
+    z-index: 0;
+}
+
+.githubIcon:hover, .linkedinIcon:hover, .instagramIcon:hover {
+    -ms-transform: scale(1.25); /* IE 9 */
+    -webkit-transform: scale(1.25); /* Safari 3-8 */
+    transform: scale(1.25); 
+}
+
+.linkedinIcon, .instagramIcon {
+    left: 75px;
+}
+
+.instagramIcon {
+    left: 150px;
+}
+
+.divBriefDescription {
+    position: relative;
+    width: 1000px;
+    height: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.divMailUrl{
+    position: relative;
+    width: 1000px;
+    height: 0;
+    text-align: center;
+    margin: auto;
+}
