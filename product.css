@@ -13,11 +13,11 @@
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
-.site-header a, .bi{
+.site-header a, .bi, .back-to-top{
   color: #8e8e8e;
   transition: color .15s ease-in-out;
 }
-.site-header a:hover, .bi:hover{
+.site-header a:hover, .bi:hover, .back-to-top:hover{
   color: #fff;
   text-decoration: none;
 }
@@ -58,4 +58,15 @@
 .name-color{
   color:#968729;
   text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+}
+
+.back-to-top:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
 }
