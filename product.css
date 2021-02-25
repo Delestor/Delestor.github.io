@@ -67,6 +67,18 @@
   display: none;
 }
 
-.back-to-top:hover {
+.back-to-top:hover{
   background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.dropdown-custom{
+  position: fixed;
+  bottom: 80px;
+  right: 25px;
+}
+
+.dropdown-menu {
+  min-width: 1rem !important;
+  width: max-content !important;
+  height: max-content !important;
 }

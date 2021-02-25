@@ -1,6 +1,11 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!--
+    <script src="./src/popper.min.js"></script>
+    <script src="./src/assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -116,17 +121,29 @@
     </div>
   </div>
 
- <a id="back-to-top" href="#" class="btn bg-dark btn-light btn-lg back-to-top" role="button"><i class="bi-arrow-up"></i></a>
+  <!-- Default dropup button -->
+  <div class="btn-group dropup dropdown-custom">
+    <i  class="bi-list btn bg-dark btn-light btn-lg" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ></i>
+    <div class="dropdown-menu">
+      <!-- Dropdown menu links -->
+      <a class="dropdown-item" href="#github-div"><i  class="bi-github" style="font-size: 2rem;"></i></a>
+      <a class="dropdown-item" href="#linkedin-div"><i  class="bi-linkedin" style="font-size: 2rem;"></i></a>
+      <a class="dropdown-item" href="#instagram-div"><i  class="bi-instagram" style="font-size: 2rem;"></i></a>
+    </div>
+  </div>
+
+  <a id="back-to-top" href="#" class="btn bg-dark btn-light btn-lg back-to-top" role="button"><i class="bi-arrow-up"></i></a>
 
 
-</main>
+  </main>
 
-<footer class="container py-5">
-  <!--<a href="index.html">Back to older version</a>-->
-</footer>
+  <footer class="container py-5">
+    <!--<a href="index.html">Back to older version</a>-->
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-    <script src="./src/assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="main.js"></script>
-      
+    <script src="src/main.js"></script>
   </body>
 </html>
